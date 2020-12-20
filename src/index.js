@@ -35,7 +35,7 @@ const alertUser = new AlertBox();
  * and attach an event listener to each one of them. 
  * 
  * We do it this way, because Webpack scopes and changes the class names. Inspect the 
- * /dist/main.js file to see what I'm talking about. This is good, since it won't pollute
+ * /dist/index.js file to see what I'm talking about. This is good, since it won't pollute
  * the global scope (Which in bigger projects has been the culprit of many bugs and problems)
  * 
  */

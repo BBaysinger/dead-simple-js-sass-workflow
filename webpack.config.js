@@ -8,13 +8,22 @@ module.exports = {
   target: "web",
   output: {
     path: `${__dirname}/dist`,
-    filename: "[name].min.js",
+    filename: "[name].js",
   },
   plugins: [
     new CopyWebpackPlugin({
       patterns: [{ from: "static" }],
     }),
   ],
+  devServer: {
+    hot: true,
+    inline: true,
+    host: "localhost",
+    port: 8080,
+    watchOptions: {
+      poll: true,
+    },
+  },
   module: {
     rules: [
       {

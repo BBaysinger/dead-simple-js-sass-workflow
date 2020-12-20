@@ -14,6 +14,6 @@
  */
 export class AlertBox {
     sayHi() {
-        alert("Hello 😊");
+        alert("Hello! 😊");
     }
 }
