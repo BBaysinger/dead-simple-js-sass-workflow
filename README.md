@@ -1,14 +1,7 @@
-# webpack-simple-example
-Just a quick and dirty example on how Webpack is integrated into the project, and how to use without any frameworks or libraries.
+# dead-simple-js-sass-workflow
+Dead simple barebones use for JS and SASS, with sourcemaps and watch. Great for prototyping with vanilla ES6.
 
-This teaches you how to use Event Listeners in order for you to execute bundled
-code with Wepback and Vanilla JavaScript.
+I plan to add branches for similar flows through other tools (Gulp, Browserify, etc...), each with ES6 and TypeScript. A lot can be learned through simplest use cases.
 
-This **doesn't** require a web server in order for you to view it. Just open [index.html](./index.html) and it works! (Of course, have at least [/dist/main.js](/dist/main.js) downloaded)
+Please LMK if there are ways to simplify any aspects further.
 
-## Check:
-- [index.js](./src/index.js)
-- [index.html](./index.html)
-
-### Other notes:
-Just in case you want to make some changes, do `npm run build`.

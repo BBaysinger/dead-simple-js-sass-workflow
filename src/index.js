@@ -18,6 +18,9 @@
 import { AlertBox } from './alert-box/alert-box';
 
 import writeText from './write-text/write-text';
+
+import "./style.scss";
+
 // This also works
 // const writeText = require('./write-text/write-text.js');
 
